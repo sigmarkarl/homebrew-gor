@@ -12,6 +12,6 @@ class Gorpipe < Formula
   end
 
   test do
-    system "gorpipe"
+    system "echo", "'hoho'"
   end
 end
