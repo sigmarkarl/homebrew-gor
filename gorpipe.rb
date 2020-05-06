@@ -7,6 +7,7 @@ class Gorpipe < Formula
 
   def install
     system "echo", "'hoho'"
+    system "cp", "gorpipe", "/usr/local/bin/gorpipe"
   end
 
   test do
