@@ -6,7 +6,7 @@ class Gorpipe < Formula
   version "2.4.1"
 
   def install
-    system "mkdir", "/usr/local/Cellar/gorpipe"
+    system "mkdir", "-p", "/usr/local/Cellar/gorpipe"
     system "cp", "gorpipe", "/usr/local/Cellar/gorpipe/gorpipe"
   end
 
