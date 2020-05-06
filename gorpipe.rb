@@ -1,4 +1,4 @@
-class Gor < Formula
+class Gorpipe < Formula
     desc ""
     version "2.4.1"
     homepage "https://github.com/gorpipe/gor"
