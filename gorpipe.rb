@@ -7,12 +7,10 @@ class Gorpipe < Formula
 
   def install
     system "mkdir", "-p", "/usr/local/Cellar/gorpipe/2.4.1"
-    system "echo", "'bo'"
     system "cp", "gorpipe", "/usr/local/Cellar/gorpipe/2.4.1/gorpipe"
-    system "echo", "'sko'"
   end
 
   test do
-    system "echo", "'hoho'"
+    system "gorpipe"
   end
 end
