@@ -8,4 +8,8 @@ class Gorpipe < Formula
     def install
         system "echo", "'hoho'"
     end
+
+    test do
+        system "gorpipe"
+    end
 end
