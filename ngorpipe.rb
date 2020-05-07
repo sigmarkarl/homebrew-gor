@@ -7,8 +7,8 @@ class Ngorpipe < Formula
 
   def install
     system "mkdir", "-p", "/usr/local/Cellar/gorpipe/2.4.1"
-    system "cp", "gorpipe", "/usr/local/Cellar/gorpipe/2.4.1/gorpipe"
-    bin.install_symlink prefix/"gorpipe"
+    system "cp", "gorpipe", "/usr/local/Cellar/gorpipe/2.4.1/ngorpipe"
+    bin.install_symlink prefix/"ngorpipe"
   end
 
   test do
