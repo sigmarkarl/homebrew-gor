@@ -7,7 +7,7 @@ class Gorpipe < Formula
 
   def install
     prefix.install Dir["*"]
-    bin.install_symlink prefix/"bin/gorpipe"
+    #bin.install_symlink prefix/"bin/gorpipe"
   end
 
   test do
